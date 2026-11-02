@@ -1,0 +1,15 @@
+{
+  "id": "office",
+  "name": "Office Suite",
+  "description": "Write and format documents. More office tools to come.",
+  "source": "https://github.com/LOKI-Server/office-suit",
+  "version": "0.1.0",
+  "url": "https://github.com/LOKI-Server/office-suit/releases/download/v0.1.0/office-0.1.0.loki-app",
+  "sha256": "3910470ae34c4fb342b2ed6b6ba3dcee6a493f10a7a77040b4ab6bcc7624dc88",
+  "size": 162979,
+  "sdk": "0.3.0",
+  "capabilities": [
+    "database",
+    "forms"
+  ]
+}
