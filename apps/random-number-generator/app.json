@@ -1,0 +1,12 @@
+{
+  "id": "random-number-generator",
+  "name": "Random Number Generator",
+  "description": "Generate random integers in LOKI, with custom ranges and unique draws.",
+  "source": "https://github.com/The-Real-NomadTax/loki-random-number-generator",
+  "version": "0.1.0",
+  "url": "https://github.com/The-Real-NomadTax/loki-random-number-generator/releases/download/v0.1.0/random-number-generator-0.1.0.loki-app",
+  "sha256": "9a983beeac1d093185ee745a6a61ccdf9cc49ea3dd1c7d9b98b9146b86934cf1",
+  "size": 80425,
+  "sdk": "0.4.0",
+  "capabilities": []
+}
