@@ -11,7 +11,7 @@ apps/<app-id>/app.json   # the latest release: version, download link, SHA-256
 apps/<app-id>/icon.png   # optional: square PNG, 64–1024 px, up to 256 KiB
 ```
 
-Every push to `main` rebuilds the site and its `index.json`, which LOKI reads.
+Every push to `master` rebuilds the site and its `index.json`, which LOKI reads.
 LOKI downloads a release only if its SHA-256 matches the entry, so it installs
 exactly the file that was reviewed.
 

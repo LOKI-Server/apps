@@ -1,10 +1,10 @@
-# Publishes the registry to https://loki-server.github.io/apps/ whenever main
+# Publishes the registry to https://loki-server.github.io/apps/ whenever master
 # changes. LOKI reads index.json from there; people browse the same page.
 name: Publish
 
 on:
   push:
-    branches: [main]
+    branches: [master]
   workflow_dispatch:
 
 permissions:
