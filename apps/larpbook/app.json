@@ -1,0 +1,15 @@
+{
+  "id": "larpbook",
+  "name": "LarpBook",
+  "description": "A shared feed with likes and replies. Names, bios, and pictures come from LOKI.",
+  "source": "https://github.com/LOKI-Server/LarpBook",
+  "version": "0.1.0",
+  "url": "https://github.com/LOKI-Server/LarpBook/releases/download/v0.1.0/larpbook-0.1.0.loki-app",
+  "sha256": "3536d80ef81d370d26540a442ef83f7acecc7b32175348dc73d97932d3ff7afe",
+  "size": 118096,
+  "sdk": "0.3.0",
+  "capabilities": [
+    "database",
+    "forms"
+  ]
+}

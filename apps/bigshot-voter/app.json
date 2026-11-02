@@ -1,0 +1,16 @@
+{
+  "id": "bigshot-voter",
+  "name": "Bigshot Voter",
+  "description": "Voting panels for LOKI",
+  "source": "https://github.com/LOKI-Server/bigshot-voter",
+  "version": "0.6.0",
+  "url": "https://github.com/LOKI-Server/bigshot-voter/releases/download/v0.6.0/bigshot-voter-0.6.0.loki-app",
+  "sha256": "ad1b47a6b1dd0028ae6887c538a5fc1f8eb0cc05cf53bcb144cfd3b0e031f872",
+  "size": 287908,
+  "sdk": "0.3.0",
+  "capabilities": [
+    "database",
+    "uploads",
+    "forms"
+  ]
+}

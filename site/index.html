@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LOKI Apps</title>
+<meta name="description" content="Reviewed apps for LOKI servers. Browse, download, or install them from your LOKI.">
+<link rel="icon" sizes="32x32" href="icon-32.png">
+<link rel="apple-touch-icon" href="icon-256.png">
+<link rel="stylesheet" href="style.css">
+<script type="module" src="app.js"></script>
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="./"><img src="icon-256.png" alt="" width="32" height="32"><span>LOKI Apps</span></a>
+  <nav><a href="https://github.com/LOKI-Server/apps#add-or-update-an-app">Submit an app</a><a href="https://github.com/LOKI-Server/LOKI">Get LOKI</a></nav>
+</header>
+<main>
+  <section class="hero">
+    <p class="eyebrow">App registry</p>
+    <h1>Apps for your LOKI server</h1>
+    <p class="lead">Every app here is reviewed before it's listed. Install one from your LOKI under <strong>Applications → Browse apps</strong>, or download the package and import it yourself.</p>
+  </section>
+  <div class="toolbar">
+    <input id="search" type="search" placeholder="Search apps" aria-label="Search apps" autocomplete="off">
+    <span id="count" class="muted" aria-live="polite"></span>
+  </div>
+  <div id="apps" class="grid" aria-busy="true"></div>
+  <p id="none" class="muted" hidden>No apps match your search.</p>
+</main>
+<footer>
+  <p>LOKI installs only the exact file that was reviewed: each entry pins its package's SHA-256. Apps are added and updated by pull request to <a href="https://github.com/LOKI-Server/apps">LOKI-Server/apps</a>.</p>
+</footer>
+</body>
+</html>
